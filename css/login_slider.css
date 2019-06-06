@@ -1,0 +1,124 @@
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.menu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 380px;
+    height: 100vh;
+    background-color: rgba(32, 32, 32, 0.8);
+    z-index: 2;
+    transition: 0.5s;    
+    transform: translateX(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+/*MENU-SLIDER*/
+.menu_active{
+    transform: translateX(0%);    
+}
+/*MENU-SLIDER*/
+
+/* BUTTON */
+.menu-btn {
+    width: 70px;
+    height: 76px;
+    background-color: rgba(32, 32, 32, 0.8);
+    position: absolute;
+    top: 18%;
+    left: -70px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn_icon{
+    color: rgb(98, 170, 204);
+    font-size: 40px;
+    transition: 0.5s;
+}
+.menu-btn_icon:hover{
+    color: #fff;
+    transition: 0.2s;
+}
+.menu-btn_icon__rotate{
+    transform: rotate(180deg);
+}
+
+/* BUTTON */
+
+/* LOGIN FORM */
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+    margin-top: 70px;
+    box-shadow: 0 -3px 0 rgb(98, 170, 204);
+}
+.login_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #fff;
+    margin-top: -47px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#email, #password{
+    width: 280px;
+    height: 46px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: none;
+    padding-left: 10px;
+    color: #fff;
+}
+.login_submit{
+    padding: 13px 46px;
+    background: rgb(98, 170, 204);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.forgot_password{
+    color: #fff;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(32, 32, 32, 0)
+}
+.forgot_password:hover{
+    border-bottom: 1px solid #fff;
+}
+.login-form input:hover{
+    box-shadow: 0 0 6px 3px rgba(98, 170, 204, 0.35);
+}
+.social{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.social_link{
+    color: #fff;
+}
+.social_link:hover{
+    color: rgba(98, 170, 204, 0.7)
+}
+/* LOGIN FORM */

@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "Mrs Sheppards";
+    src: url(../resources/fonts/Mrs_Sheppards/MrsSheppards-Regular.ttf);
+}
+
+@font-face{
+    font-family: "NotoSansRegular";
+    src: url(../resources/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf)
+}
+@font-face{
+    font-family: "NotoSansLight";
+    src: url(../resources/fonts/Noto_Sans_KR/NotoSansKR-Light.otf)
+}
+@font-face{
+    font-family: "NotoSansBold";
+    src: url(../resources/fonts/Noto_Sans_KR/NotoSansKR-Bold.otf)
+}
+
+@font-face{
+    font-family: "YanoneRegular";
+    src: url(../resources/fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf)
+}
+@font-face{
+    font-family: "YanoneLight";
+    src: url(../resources/fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Light.ttf)
+}
+@font-face{
+    font-family: "YanoneBold";
+    src: url(../resources/fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Bold.ttf)
+}

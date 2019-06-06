@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trello 2.0</title>
+</head>
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../css/fonts.css">
+<link rel="stylesheet" href="../resources/fonts/Roboto_Mono.zip">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/login_slider.css">
+<link rel="stylesheet" href="../css/registration.css">
+<body>
+    <header class="header">
+            <a href="#" class="header_logo">
+                <i class="fas fa-edit"></i>
+                <h5 class="logo_text">Trello 2.0</h5>
+            </a>
+    </header>
+    <container class="home">
+        <div class="text_block">
+            <h1 class="title">Trello 2.0</h1>
+            <h2 class="subtitle">Неповторимый оригинал, а не жалкая пародия</h2>
+            <a href="#" class="registration-btn">Зарегестрироваться</a>
+        </div>
+    </container>
+    <div class="menu">
+            <a href="#" class="menu-btn"><span class="menu-btn_icon"><i class="fas fa-sign-in-alt"></i></span></a>
+            <form class="login-form">
+                <div class="login_icon"><i class="fas fa-user-circle" ></i></div>
+                <input type="email" name="E-mail" id="email" placeholder="Введите E-mail">
+                <input type="password" name="Password" id="password" placeholder="Введите пароль">
+                <input type="submit" value="ВОЙТИ" class="login_submit">
+                <a href="#" class="forgot_password">Забыли пароль?</a>
+                <div class="social">
+                        <a href="" class="social_link"><i class="fab fa-instagram"></i></a>
+                        <a href="" class="social_link"><i class="fab fa-telegram"></i></a>
+                        <a href="" class="social_link"><i class="fab fa-twitter-square"></i></a>
+                        <a href="" class="social_link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" class="social_link"><i class="fab fa-github-square"></i></a>
+                        <a href="" class="social_link"><i class="fab fa-viber"></i></a>
+                </div>
+            </form>
+    </div>   
+    <div class="registration">
+        <div class="registration_title">
+                <i class="fas fa-lock"></i>
+                <h4>Регистрация</h4>
+            <a href="#" class="registration_close_btn"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="registration_popup">
+            <div class="login_section registration_section">
+                <div class="login_title registration_section_title">
+                    <i class="fas fa-user"></i>
+                    <h5>Логин</h5>
+                </div>
+                <input type="text" name="login" id="registration_login" placeholder="Введите логин">
+            </div>
+            <div class="email_section registration_section">
+                <div class="email_title registration_section_title">
+                    <i class="fas fa-envelope"></i>
+                    <h5>E-mail</h5>
+                </div>
+                <input type="email" name="E-mail" id="registarion_email" placeholder="Введите E-mail">
+             </div>
+             <div class="password_section registration_section">
+                 <div class="password_title registration_section_title">
+                    <i class="fas fa-key"></i>
+                     <h5>Пароль</h5>
+                 </div>
+                 <input type="password" name="Password" id="registration_password" placeholder="Введите пароль">
+                 <input type="password" name="Password" id="registration_password" placeholder="Повторите пароль">
+              </div>
+        </div>
+        <a href="#" class="registration-btn registration-btn_popup">Зарегестрироваться</a>
+        <div class="already_registered">
+            <h5>Вы уже зарегестрированы? Тогда <a href="#">авторизируйтесь!</a></h5>
+        </div>
+    </div>
+    <div class="bg_popup"></div>
+    <footer class="footer">
+        <h5 class="credits"><i class="far fa-copyright"></i> 2019. Все права защищены.</h5>
+    </footer>
+    <script src="../libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/menu_slider.js"></script>
+    <script src="../js/registration_popup.js"></script>
+</body>
+</html>

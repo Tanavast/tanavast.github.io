@@ -1,0 +1,122 @@
+.registration{
+    position: absolute;
+    top: 3vh;
+    left: auto;
+    z-index: 11;
+    width: 440px;
+    height: 90vh;
+    background-color: rgba(32, 32, 32, 0.98);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px rgba(98, 170, 204, 0.45);
+    transform: translateX(-100vw);
+    transition: 0.5s;
+    font-family: "YanoneBold",serif;
+}
+.registration_active{
+    transform: translateX(0vw);
+}
+/* TITLE */
+
+.registration_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 12%;
+    font-size: 30px;
+    border-bottom: 3px solid rgb(98, 170, 204);
+    padding: 0px;
+}
+.registration_title h4{
+    margin-left: 10px;
+}
+.registration_close_btn{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    color: #fff;
+}
+.registration_close_btn:hover{
+    color: rgba(98, 170, 204, 0.7);
+}
+
+/* TITLE */
+
+
+.registration_popup{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+
+/* REGISTRATION INPUT SECTION */
+
+.registration_section_title{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+}
+.registration_section_title h5{
+    margin-left: 10px;
+}
+.registration_section input{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: none;
+    padding-left: 10px;
+    color: #fff;
+}
+.registration_section input:hover{
+    box-shadow: 0 0 6px 3px rgba(98, 170, 204, 0.35);
+}
+
+
+/* REGISTRATION INPUT SECTION */
+
+/* REGISTRATION BTN */
+
+.registration-btn_popup{
+    margin-top: 14px;
+    text-align: center;
+    height: 40px;
+}
+
+/* REGISTRATION BTN */
+
+.already_registered{
+    margin-top: 24px;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+}
+.already_registered a{
+    color: rgb(98, 170, 204);
+}
+.already_registered a:hover{
+    border-bottom: 1px solid rgb(98, 170, 204);
+}
+
+.bg_popup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(32, 32, 32, 0.5);
+    display: none;
+}
+.bg_popup_active{
+    display: block;
+}
