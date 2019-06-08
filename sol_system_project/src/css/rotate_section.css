@@ -1,0 +1,53 @@
+.planet_viewer {
+    perspective: 1000px;
+}
+
+/* LEFT PLANETS */
+
+.section_planets_left{
+    display: flex;
+    flex-direction: row;
+    transform: rotateY(15deg);
+    height: 100%;
+}
+.left_left {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 100%;
+    padding-right: 0.9vw;
+}
+.left_right {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 100%;
+}
+
+/* LEFT PLANETS */
+
+/* RIGHT PLANETS */
+
+.section_planets_right{
+    transform: rotateY(-15deg);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.right_left {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 100%;
+    margin-left: -18px;
+}
+.right_right {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 100%;
+    padding-left: 0.9vw;
+}
+
+/* RIGHT PLANETS */
+

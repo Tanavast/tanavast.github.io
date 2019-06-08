@@ -1,0 +1,7 @@
+.planet_left_left_top, .planet_left_left_bottom, .planet_left_right_top, .planet_left_right_bottom {
+    
+    filter: drop-shadow(10px 16px 10px black);
+}
+.planet_right_left_top, .planet_right_left_bottom, .planet_right_right_top, .planet_right_right_bottom {
+    filter: drop-shadow(-10px 16px 10px black);
+}
