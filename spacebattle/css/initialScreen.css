@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: url(/resources/img/bodyBackground.jpg) no-repeat;
+    background: url(/spacebattle/resources/img/bodyBackground.jpg) no-repeat;
     background-attachment: fixed;
 }
 * {
@@ -36,7 +36,7 @@ body {
 .left-door{
     position: relative;
     z-index: 1;
-    background-image: url(/resources/img/background-metal.jpg);
+    background-image: url(/spacebattle/resources/img/background-metal.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-box-shadow: 17px 1px 9px 1px rgba(0,0,0,0.75);
@@ -54,7 +54,7 @@ body {
 .right-door{
     position: relative;
     z-index: 3;
-    background-image: url(/resources/img/background-metal.jpg);
+    background-image: url(/spacebattle/resources/img/background-metal.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-box-shadow: -7px 1px 9px 1px rgba(0,0,0,0.75);
@@ -78,7 +78,7 @@ body {
     width: 200px;
     border-radius: 50%;
     z-index: 9;
-    background-image: url(/resources/img/background-metal.jpg);
+    background-image: url(/spacebattle/resources/img/background-metal.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: flex;
