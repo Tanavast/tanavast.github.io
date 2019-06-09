@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ds-digitalnormal';
-    src: url('/resources/fonts/ds-digital_allfont.ru-webfont.woff2') format('woff2'),
-         url('/resources/fonts/ds-digital_allfont.ru-webfont.woff') format('woff');
+    src: url('/spacebattle/resources/fonts/ds-digital_allfont.ru-webfont.woff2') format('woff2'),
+         url('/spacebattle/resources/fonts/ds-digital_allfont.ru-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
