@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space battle</title>
+    <link rel="stylesheet" href="/css/initialScreen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/battlefield.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="/css/fonts.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+    <div class="initialScreen" id="initialScreen">
+        <div class="background_doors">
+            <div class="left-door door">
+                <h1 class="gameName">space</h1>
+            </div>
+            <div class="right-door door">
+                <div class="play-scoreboard"><div class="play-btn">8.8.8.8</div><div class="play-btn_active">p.l.a.y</div></div>
+                <h1 class="gameName">battle</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="battlefield">
+        <!-- верхний блок для вывода текстовых сообщений -->
+        <div id="text_top" class="text-top">placement</div>
+        <div class="outer clearfix">
+            <!-- поле игрока -->
+            <div class="fields">
+                <div class="field field-user">
+                    <div id="field_user" class="ships"></div>
+                </div>
+     
+                <!-- поле компьютера -->
+                <div class="field field-comp hidden">
+                    <div id="field_comp" class="ships"></div>
+                </div>
+            </div>
+     
+            <!-- инструкция -->
+            <div id="instruction" class="instruction">
+                <div id="type_placement" class="type-placement-box">
+                    1.<span class="link" data-target="random">Random</span></br>
+                    2.<span class="link" data-target="manually">manually</span>
+                </div>
+                <div id="ships_collection" class="ships-collection hidden" > 
+                    <p>Drag the ships on the playing field with your mouse. To set the ship vertically, click on it with the right mouse button.</p>
+                    <!-- набор кораблей для перетаскивания -->
+                    <ul id='initial_ships' class="initial-ships">
+                        <li>
+                            <div id="fourdeck1" class="ship fourdeck"></div>
+                            <div id="tripledeck1" class="ship tripledeck tripledeck1"></div>
+                            <div id="tripledeck2" class="ship tripledeck tripledeck2"></div>
+                        </li>
+                        <li>
+                            <div id="doubledeck1" class="ship doubledeck"></div>
+                            <div id="doubledeck2" class="ship doubledeck doubledeck2"></div>
+                            <div id="doubledeck3" class="ship doubledeck doubledeck3"></div>
+                        </li>
+                        <li>
+                            <div id="singledeck1" class="ship singledeck"></div>
+                            <div id="singledeck2" class="ship singledeck singledeck2"></div>
+                            <div id="singledeck3" class="ship singledeck singledeck3"></div>
+                            <div id="singledeck4" class="ship singledeck singledeck4"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- кнопка запуска игры -->
+        <span id="play" class="btn-play hidden">start game</span>
+        <!-- нижний блок для вывода текстовых сообщений -->
+        <div id="text_btm" class="text-btm hidden"></div>
+    </div>
+    <script src="/initialScreen.js"></script>
+    <script src="/resources/shipPlacement.js"></script>
+</body>
+</html>

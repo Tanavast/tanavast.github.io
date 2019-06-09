@@ -1,0 +1,162 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(/resources/img/bodyBackground.jpg) no-repeat;
+    background-attachment: fixed;
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.initialScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.background_doors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.door{
+    width: 50vw;
+    height: 100vh;
+    transition: 3s;
+    transition-delay: 2s;
+}
+
+
+.left-door{
+    position: relative;
+    z-index: 1;
+    background-image: url(/resources/img/background-metal.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 17px 1px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 1px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: 7px 1px 9px 1px rgba(0,0,0,0.75);
+}
+.left-door h1{
+    position: absolute;
+    right: 10vw;
+    top: 39vh;
+    z-index: 1;
+}
+
+
+.right-door{
+    position: relative;
+    z-index: 3;
+    background-image: url(/resources/img/background-metal.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: -7px 1px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 1px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: -7px 1px 9px 1px rgba(0,0,0,0.75);
+}
+.right-door h1{
+    position: absolute;
+    left: 10vw;
+    top: 39vh;
+    z-index: 3;
+}
+
+/* PLAY SCOREBOARD */
+
+.play-scoreboard {
+    position: absolute;
+    left: -100px;
+    top: 34vh;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: 9;
+    background-image: url(/resources/img/background-metal.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    -webkit-box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.75);
+    position: relative;
+    transition: 2s;
+}
+.play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+    background-color: #1D1210;
+    border: 6px solid #161010;
+    font-family: 'ds-digitalnormal';
+    font-size: 60px;
+    color: #470916;
+    position: absolute;
+    -webkit-box-shadow: -1px 0px 11px 2x rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 11px 2px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 11px 2px rgba(0,0,0,0.75);
+    z-index: 9;
+
+}
+.play-btn_active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+    font-family: 'ds-digitalnormal';
+    font-size: 60px;
+    color: #F5F66A;
+    text-shadow: 0px 0px 15px rgba(248, 165, 69, 1);
+    opacity: 0;
+    z-index: 10;
+    transition: 0.5s ease-in-out;
+}
+
+.play-scoreboard:hover .play-btn_active{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* /PLAY SCOREBOARD */
+
+
+.gameName{
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-family: 'Black Ops One', cursive;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+
+/* INITIAL SCREEN ACTIVE*/
+.play-scoreboard_active{
+    z-index: 9;
+    transform: translate(8vw);
+    transition: 2s;
+    transition-delay: 0.5s;
+}
+
+.left-door_active{
+    transform: translate(-52vw);
+}
+
+.right-door_active{
+    transform: translate(52vw);
+}
+
+
+/* /INITIAL SCREEN  ACTIVE*/
+
+
