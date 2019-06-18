@@ -1,0 +1,37 @@
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    background: url(../resources/icons/preloader/gear-shape.png);
+    background-position: center;
+    background-size: contain;
+    z-index: 12;
+    animation: 3.5s spin infinite linear;
+}
+.preloader_done{
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

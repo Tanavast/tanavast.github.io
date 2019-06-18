@@ -1,0 +1,75 @@
+/* МЕНЮ */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+    transition: 0.5s;
+}
+/* LOGO */
+.logo{
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    box-sizing: border-box;
+}
+.logo img{
+    margin-left: 7vw;
+    height: 30px;
+}
+/* LOGO */
+.nav_menu{
+    margin-left: 9vw;
+}
+.navbar{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+}
+.nav_btn{
+    margin-right: 3vw;
+    margin-left: 1vw;;
+}
+.nav_btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+/* MENU BTN HOVER */
+.nav_btn a:hover{
+    border-bottom: 2px solid #fff;
+}
+/* MENU BTN HOVER */
+
+/* FIXED MENU */
+.nav__fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6vh;
+    width: 100%;
+    z-index: 10;
+    padding: -2;
+    background: rgba(0,0,0,0.2);
+}
+/* FIXED MENU */
+
+/* МЕНЮ */
+

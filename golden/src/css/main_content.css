@@ -1,0 +1,62 @@
+/* КОНТЕНТ */
+main{
+    width: 100%;
+    height: 700px;
+    background: url(../resources/img/bg/home_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    perspective: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.greetings{
+    margin-top: 24vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #fff;
+}
+.greetings h2{
+    padding-bottom: 6vh;
+    font-size: 40px;
+}
+.greetings h1{
+    font-size: 75px;
+    font-weight: bold;
+}
+/* КОНТЕНТ */
+
+/* BUTTON */
+.more_btn{
+    margin-top: 10vh;
+    background-color: #fed136;
+    height: 60px;
+    width: 240px;
+    transition: 0.3s;
+}
+.more_btn a{
+    text-transform: uppercase;
+    color: #484543;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* BUTTON */
+
+
+
+/* MORE BTN HOVER */
+.more_btn:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+/* MORE BTN HOVER */
+
