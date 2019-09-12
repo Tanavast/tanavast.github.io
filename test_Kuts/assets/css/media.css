@@ -25,6 +25,9 @@
     .technology-card img{
         margin-top: 20px;
     }
+    .arrow {
+        dispay: none;
+    }
 }
 
 @media screen and (max-width: 480px) {
