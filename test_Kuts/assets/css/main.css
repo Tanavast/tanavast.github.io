@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+p {
+    line-height: 26px;
+}
+img {
+     max-width: 100%;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1062px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.demo-btn {
+    height: 40px;
+    width: 178px;
+    border: 1px solid #28225e;
+    border-radius: 50px;
+
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #28225e;
+    font-size: 18px;
+}
+.solution-text {
+    margin-top: 120px;
+    text-align: center;
+    max-width: 750px;
+}
+.solution-text h1{
+    font-size: 36px;
+    font-weight: normal;
+}
+.solution-text p{
+    margin-top: 40px;
+    font-size: 14px;
+    width: 100%;
+}
+.solution-card_section {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+.card {
+    width: 315px;
+    height: 315px;
+    padding: 0 15px;
+    text-align: center;
+    position: relative;
+}
+.card h3{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.card p {
+    margin-top: 40px;
+}
+.arrow {
+    position: absolute;
+    top: 52%;
+    left: 94%;
+    font-size: 50px;
+    color: #28225e;
+}
+.quote-section {
+    background: -moz-linear-gradient( 0deg, rgb(25,37,107) 0%, rgb(26,37,107) 32%, rgb(218,87,22) 73%, rgb(218,84,19) 100%);
+    background: -webkit-linear-gradient( 0deg, rgb(25,37,107) 0%, rgb(26,37,107) 32%, rgb(218,87,22) 73%, rgb(218,84,19) 100%);
+    background: -ms-linear-gradient( 0deg, rgb(25,37,107) 0%, rgb(26,37,107) 32%, rgb(218,87,22) 73%, rgb(218,84,19) 100%);
+    height: 155px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section_text {
+    width: 620px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.quote-section h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+.quote-section p{
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.technology-section {
+    margin-top: 140px;
+    margin-bottom: 190px;
+}
+.technology-section h1{
+    font-size: 36px;
+    font-weight: normal;
+}
+.technology-card {
+    margin-top: 90px;
+    display: flex;
+}
+.technology-card_text{
+    width: 315px;
+    margin: 0 15px;
+    float: right;
+}
+.technology-card_text h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+.technology-card_text p{
+    font-size: 14px;
+    margin-top: 45px;
+    text-align: left;
+}
+.technology-card_img {
+    margin: 0 15px;
+}
