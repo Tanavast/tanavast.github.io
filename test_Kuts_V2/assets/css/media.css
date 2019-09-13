@@ -1,0 +1,111 @@
+@media screen and (max-width: 980px) {
+    .container{
+        max-width: 768px;
+    }
+    .card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    body{
+        white-space: normal;
+    }
+    .container{
+        max-width: 738px;
+        margin: 0 15px;
+    }
+   
+    .technology-card img{
+        width: 420px;
+        height: 380px;
+    }
+    .card img{
+        width: 200px;
+        height: 150px;
+    }
+    .arrow {
+        font-size: 40px;
+    }
+    .quote-section h4{
+        font-size: 16px;
+    }
+    .quote-section p{
+        font-size: 12px;
+    }
+    .technology-section {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{ 
+        max-width: 320px;
+    }
+    .solution-card_section {
+        flex-wrap: wrap;
+    }
+    .technology-card{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center !important;
+    }
+    .technology-card_reverse {
+        flex-direction: column;
+    }
+    .logo {
+        display: none;
+    }
+    .header-nav {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .card img{
+        width: 270px;
+        height: 197px;
+    }
+    .solution-card_section {
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+    .arrow {
+        display: none;
+    }
+    .arrow-down {
+        display: block;
+    }
+    .card{
+        margin-bottom: 110px;
+    }
+    .quote-section{
+        height: 290px;
+    }
+    .quote-section_text{
+        width: 280px;
+        margin-top: 30px;
+    }
+    .quote-section_text p{
+        position: relative;
+        padding-top: 35px;
+    }
+    .technology-card{
+        margin-top: 40px;
+    }
+    .technology-card img{
+        width: 265px;
+        height: 240px;
+    }
+    .technology-card_text{
+        width: 250px;
+        padding-top: 30px;
+    }
+    .technology-card_text p{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
